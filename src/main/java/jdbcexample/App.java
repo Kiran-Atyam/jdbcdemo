@@ -23,7 +23,8 @@ public final class App {
 
        System.out.println("Names :-" );
        while(rs.next()){
-           System.out.println(rs.getString("name" ));
+           System.out.println(rs.getString("name"  ));
+           System.out.println(rs.getString("age"  ));
        }
        con.close();
 } catch(SQLException | ClassNotFoundException se){

@@ -21,9 +21,9 @@ public final class App {
 
        ResultSet rs = ps.executeQuery();
 
-       System.out.println("Names :-");
+       System.out.println("Names :-" );
        while(rs.next()){
-           System.out.println(rs.getString("name"));
+           System.out.println(rs.getString("name" ));
        }
        con.close();
 } catch(SQLException | ClassNotFoundException se){
